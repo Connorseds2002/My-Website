@@ -22,3 +22,6 @@ Route::get('/collage', function () {
 Route::get('/collage/corses', function () {
     return view('corses');
 });
+Router::get('/collage/corses/bcot/L2-IT' , function () {
+    return view('L2-IT');
+});
