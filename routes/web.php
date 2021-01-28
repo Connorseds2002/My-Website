@@ -19,9 +19,13 @@ Route::get('/', function () {
 Route::get('/collage', function () {
     return view('Collage');
 });
+
 Route::get('/collage/corses', function () {
     return view('corses');
 });
-Router::get('/collage/corses/bcot/L2-IT' , function () {
-    return view('L2-IT');
+Route::get('/collage/corses/bcot/L2-IT' , function () {
+    return view('L2IT');
+});
+route::get('/collage/corses/bcot/L2-IT/Unit1', function () {
+    return view('L2ITU1');
 });
